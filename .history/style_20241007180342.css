@@ -121,7 +121,7 @@ img{
  }
  .contact_tittle::after{
   content: ""; 
-  width: 180px;
+  width: 150px;
   height: 5px;
   display: block;
   margin-left: 50px;
@@ -283,7 +283,9 @@ header .navbar{
   margin-bottom: 15px;
  
   border-radius: 100px;
- }   /*Chocolate  Menu section*/
+ }
+ 
+   /*Chocolate  Menu section*/
    .chocolate_section{
     background-image:url(image/vec3.jpg);
     color: #ffffff;
@@ -338,10 +340,11 @@ font-weight: 1000;
     background: #552A1A;
     border-radius: 10px;
     padding: 10px;
-  }  /*Coffee section*/ 
-   .coffee_section{
+  }
+  /*Coffee Menu section*/
+  .coffee_section{
     color: #080808;
-    height: 180vh;
+    height: 160vh;
  }
   .coffee_section .coffee_list{
     display: flex;
@@ -388,8 +391,8 @@ font-weight: 1000;
     background: #552A1A;
     border-radius: 10px;
     padding: 10px;
-  }     
-   /*Product Coffee Section*/
+  }
+      /*Product Coffee Section*/
   .product_section{
     background-image:url(image/vec3.jpg);
     color: #ffffff;
@@ -460,7 +463,7 @@ font-style: italic;
   justify-content: center;
 }
 
-   /*Productc Section*/
+   /*Productc Chocolat Section*/
    .productc_section{
     background:#fff;
     color: #030303;

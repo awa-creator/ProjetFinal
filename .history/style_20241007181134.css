@@ -121,7 +121,7 @@ img{
  }
  .contact_tittle::after{
   content: ""; 
-  width: 180px;
+  width: 150px;
   height: 5px;
   display: block;
   margin-left: 50px;
@@ -341,7 +341,7 @@ font-weight: 1000;
   }  /*Coffee section*/ 
    .coffee_section{
     color: #080808;
-    height: 180vh;
+    height: 160vh;
  }
   .coffee_section .coffee_list{
     display: flex;
@@ -394,6 +394,7 @@ font-weight: 1000;
     background-image:url(image/vec3.jpg);
     color: #ffffff;
     padding: 10px;
+    height:160vh;
  }
   .product_section .product_list{
     display: flex;

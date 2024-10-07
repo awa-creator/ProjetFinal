@@ -121,7 +121,7 @@ img{
  }
  .contact_tittle::after{
   content: ""; 
-  width: 180px;
+  width: 150px;
   height: 5px;
   display: block;
   margin-left: 50px;
