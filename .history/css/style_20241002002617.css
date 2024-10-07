@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Charm", system-ui;
+    transition: all 0.2s linear;
+}
+:root{
+    --box-shodow: 0 0.5rem 0.5rem rgba(0,0,0,0.3);
+    --mincolor: rgb(71,71,71);
+    --sc-color: rgb(194,143,2)}
+    html{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        scroll-padding-top: 1rem;
+    }
+    html::-webkit-scrollbar{
+        width: 0.8rem;
+    }
+    html::-webkit-scrollbar-track{
+        background: #fff;
+    }
+    html::-webkit-scrollbar-thumb{
+        background: #333;
+        border-radius: 5rem;
+    }

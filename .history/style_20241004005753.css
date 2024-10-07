@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+img{
+    width: 100%;
+}
+:root{
+    --white-color:#fff
+    --primary-color: rgb(112, 63, 4);
+    --secondary-color:rgb(219, 169, 92);
+    --box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.section content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: max-content;
+}
+.section_tittle{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px; 
+    font-size: x-large;
+}
+.section_tittle::after{
+    content: ""; 
+    width: 100px;
+    height: 5px;
+    display: block;
+    background: rgb(112, 63, 4);
+    border-radius: 5px;
+    margin-left: 280px;
+}
+.choco_tittle{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px; 
+    font-size: x-large;
+}
+.choco_tittle::after{
+    content: ""; 
+    width: 150px;
+    height: 5px;
+    display: block;
+    background: rgb(112, 63, 4);
+    border-radius: 5px;
+    margin-left: 500px;
+}
+.coffee_tittle{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 70px; 
+    font-size: x-large;
+}
+.coffee_tittle::after{
+    content: ""; 
+    width: 150px;
+    height: 5px;
+    display: block;
+    background: rgb(112, 63, 4);
+    border-radius: 5px;
+    margin-left: 500px;
+}
+/*Navbar styling*/
+header{
+    background-color: #552A1A;
+    box-shadow: var(--box-shadow); /* Application de l'ombre */
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navbar .nav_logo .logo_text {
+    color: white;
+    font-size: x-large;
+    font-weight:bold;
+}
+.choco{
+    color: rgb(219, 169, 92);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header .navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .nav_menu{
+    display: flex;
+    gap: 10px;
+}
+.nav_menu ,.nav_link,.navbar{
+    padding: 10px 18px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+/*section main*/
+.main_section{
+    background: #552a1a;
+    min-height: 100vh;
+    position: relative;
+}
+.main_detail{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   color: white;
+   min-height: 100vh;
+}
+.main_image{
+    background-position: center;
+    background-size: cover; /* Couvre tout l'élément */
+    width: 500%;
+}
+.main_section .main_detail .tittle{
+    font-size: 17px;
+    color: rgb(219, 169, 92);
+    font-weight: bold;
+    font-family: 'Charm';
+    
+}
+ /*About section*/
+ .about_section{
+    padding: 60px;
+    background: #fff;
+ } 
+ .about_section .about_section_content{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    justify-content: space-between;
+    
+ }
+ .img_about{
+    width: 600px;
+    height: 500px;
+    border-radius: 100%;  
+ }
+ .about_text{
+    line-height: 30px;
+    text-align: center;
+ }
+ .social_media_list{
+ display: flex;
+ gap: 20px;   
+ justify-content: center;
+ }
+ .social_link{
+    color: #552A1A;
+    transition: 0.3s ease;
+    font-size: 25px;
+ }
+ /*Chocolate section*/
+ .choco_section{
+    background-image:url(image/vec3.jpg);
+    color: #fff;
+ }
+  .choco_section .choco_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .choco_section .choco_list .choco_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:calc(100%/3 - 110px);
+    justify-content: space-between;
+
+  }
+  .choco_section .choco_list .choco_item .choco_img {
+     max-width: 83%;
+     aspect-ratio: 1;
+     margin-bottom: 15px;
+     object-fit: contain;
+  }
+  .choco_section .choco_list .choco_item .name{
+     margin: 12px 0;
+    font-size: 18px;
+    font-weight: 1000;
+  }
+  /*Coffee section*/
+  .coffee_section{
+    background-image:url(image/vec4.jpg);
+    color: #fff;
+ }
+  .coffee_section .coffee_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .coffee_section .coffee_list .coffee_item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:calc(100%/3 - 110px);
+    justify-content: space-between;
+
+  }
+  .coffee_section .coffee_list .coffee_item .coffee_img {
+max-width: 83%;
+aspect-ratio: 1;
+margin-bottom: 15px;
+object-fit: contain;
+  }
+  .coffee_section .coffee_list .coffee_item .name{
+margin: 12px 0;
+font-size: 18px;
+font-weight: 1000;
+  }
+
+      /*Product Section*/
+  .product_section .prod{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 10px ;
+    width: 25%;
+  }
+  .product_section .prod .product_list{
+    padding: 5px;
+    text-align: center;
+  }
+  .product_section .prod .product_list:hover{
+    box-shadow:var(--box-shadow);
+    background: #fdf;
+    border-radius: 10px;
+  }
+  .product_section .prod .product_list  .product_list.img_product{
+    width: 40px;
+    height: 40px;
+  }
+  .product_section .prod .product_list .name_product h3{
+    font-size: 20px;
+    color: black;
+  }
+   .name_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+   .price{
+    border: 2px solid var(--secondary-color);
+    background: var(--secondary-color);
+    border-radius:4px;
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+}
+.btn_price {
+    border: 2px solid var(--secondary-color);
+    color: black;
+    border-radius:4px;
+    padding: 5px;
+    font-size: 10px;
+}
+.product_section .prod .product_list .name_price.btn_price:hover{
+background: var(--secondary-color);
+color: #fff;
+}
+
+
+
+    /*Responsive query media code */
+@media screen and(max-width:900px) {
+    .choco_section .choco_list .choco_item{
+        width:calc(100%/3 - 60px);  
+    } 
+    .choco_section .choco_list{
+        gap: 60px;
+    }
+}
+  /*Responsive query media code */
+@media screen and(max-width:900px) {
+    .navbar .nav_menu{
+        display: block;
+        position:fixed;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 100%;
+        background: #fff;
+    } 
+}
